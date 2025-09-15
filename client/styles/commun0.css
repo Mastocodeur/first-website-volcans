@@ -1,0 +1,90 @@
+/* general *//**/
+body {
+
+	background-image: url(../images/FOND.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+/* Global */
+#global {
+	width: 1200px;
+	overflow: hidden;
+}
+
+
+/* Menu de navigation */
+#navigation {
+	width: 160px; /* -> 4 */
+	float: left;
+}
+#navigation ul {
+	margin: 0;
+	list-style: none;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+#navigation a {
+	display: block;
+	height: 29px;
+	line-height: normal;
+	font-size: 16px;
+	text-decoration: none;
+	color: #ebebeb;
+	background-image: url(../images/rollovermenu.jpg);
+	width: 125px;
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	font-family: "Tahoma", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+#global #navigation a:hover {
+	color: #000;
+}
+#test {
+padding-left : 680px;
+visibility : visible;
+color : purple;
+text-decoration : none;
+}
+
+
+/* Contenu */
+#contenu {
+	margin-left: 160px;
+	color: #FFF;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	text-align: justify;
+	background-image: none;
+	background-repeat: no-repeat;
+}
+#global #navigation ul li a:hover {
+	background-image: url(../images/rollovermenu.jpg);
+	background-position: bottom;
+}
+#global #contenu h2 {
+	font-size: 30px;
+	font-family: "Tahoma", cursive;
+	text-align: center;
+	font-weight: bold;
+}
+#global #contenu h3 strong {
+	font-family: "Tahoma", cursive;
+	font-size: 18px;
+	font-weight: bold;
+	color: #03C;
+}
+#global #contenu p {
+	text-align: left;
+	font-family: "Tahoma", cursive;
+	font-size: 18px;
+}

@@ -1,0 +1,6 @@
+.git
+.gitattributes
+client/.gitattributes
+.env
+volcans/.ipynb_checkpoints
+.ipynb_checkpoints

@@ -2,7 +2,7 @@
 """
 Created on Mon May 16 23:06:27 2022
 
-@author: REMY, ALBAN, LOUIS, MARTIN, KHADIDJA
+@author: REMY
 """
 ##########################################################
 #### Importation des bibliothèques utiles à ce projet ####
@@ -13,6 +13,7 @@ import json
 import datetime
 import ast
 from urllib.parse import urlparse, parse_qs, unquote
+import os
 ###########################################################
 ###########################################################
 ###########################################################
@@ -365,6 +366,11 @@ conn.row_factory = sqlite3.Row
 #
 # Instanciation et lancement du serveur
 #
-httpd = socketserver.TCPServer(("", 8081), RequestHandler)
+# En local, on utilise le port 8080
+#httpd = socketserver.TCPServer(("", 8080), RequestHandler)
+
+#
+port = int(os.environ.get("PORT", 8080))
+httpd = socketserver.TCPServer(("", port), RequestHandler)
 httpd.serve_forever()
 

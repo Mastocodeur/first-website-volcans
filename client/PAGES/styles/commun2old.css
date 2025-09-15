@@ -1,0 +1,120 @@
+/* general */
+body {
+	background-image: url(../images/FOND.jpg);
+	background-repeat: repeat;
+	padding: 15px;
+	height: auto;
+	width: auto;
+	background-position: center center;
+}
+
+/* Global */
+#global {
+	width: 1200px;
+	overflow: hidden;
+	background-image: url(../images/FOND.jpg);
+	background-repeat: repeat;
+}
+
+/* En-tête */
+#entete {
+	background-image: url(../images/titre%20bandeau.jpg);
+	background-position: center center;
+	padding: 20px;
+}
+#entete h1 {
+	color: #0000FF;
+	font-size: 50px;
+	font-family: "Comic Sans MS", cursive;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 100px;
+}
+#entete h1 img {
+	float: left;
+	margin-top: 7px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 0;
+}
+#entete .sous-titre {
+	margin-top: 4px;
+	margin-right: 0;
+	margin-bottom: 15px;
+	margin-left: 0;
+	color: #FFF;
+}
+
+/* Menu de navigation */
+#navigation {
+	width: 160px; /* -> 4 */
+	float: left;
+	background-image: url(../images/FOND.jpg);
+}
+#navigation ul {
+	margin: 0;
+	list-style: none;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+#navigation a {
+	display: block;
+	height: 29px;
+	line-height: normal;
+	font-size: 16px;
+	text-decoration: none;
+	color: #FFF;
+	background-image: url(../images/rollovermenu.jpg);
+	width: 125px;
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+#global #navigation a:hover {
+	color: #000;
+}
+
+
+
+/* Contenu */
+#contenu {
+	margin-left: 0px;
+	color: #FFF;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	text-align: justify;
+	background-image: url(../images/espace4.jpg);
+	background-repeat: repeat;
+}
+#global #navigation ul li a:hover {
+	background-image: url(../images/rollovermenu.jpg);
+	background-position: bottom;
+}
+#global #contenu h2 {
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive;
+	text-align: center;
+	font-weight: bold;
+}
+#global #contenu h3 strong {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	font-weight: bold;
+	color: #03C;
+}
+#global #contenu p {
+	text-align: left;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+}
